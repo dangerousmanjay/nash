@@ -1,0 +1,7 @@
+browser-cookie3==0.13
+opencv-python==4.5
+pyinstaller==4.8
+PyQt5==5.15
+pytesseract==0.3.8
+selenium==4.1
+webdriver-manager==3.5
