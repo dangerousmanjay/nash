@@ -67,7 +67,7 @@ class Macro(QThread):
                     "xpath",
                     "//span[text()='구매하기']/parent::a",
                 ).click()
-            except UnexpectedAlertPresentException:
+            except (UnexpectedAlertPresentException, NoSuchElementException):
                 driver.refresh()
             else:
                 break
